@@ -1,0 +1,45 @@
+.navbar {
+    position: fixed;
+    margin-bottom: 0;
+    width: 100vw;
+    padding-bottom: 20px;
+}
+
+.navbar-brand {
+    font-family: Raleway;
+    font-size: 25px;
+    color: #000930;
+    background-color: transparent;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navbar-brand img {
+    margin: -3px 10px 0px 5px;
+}
+
+#root>div>div>nav>ul {
+    margin-left: 20px;
+}
+
+.footer {
+    padding-top: 10px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer div p {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+html {
+    background: url(../images/Animals___Cats__Gray_Scottish_Fold_cat_with_big_brown_eyes_045192_.jpg) no-repeat center center fixed;
+    -webkit-background-size: 100vw;
+    -moz-background-size: 100vw;
+    -o-background-size: 100vw;
+    background-size: 100vw;
+}
