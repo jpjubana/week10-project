@@ -10,6 +10,8 @@ import Layout from './components/Layout.jsx';
 import Home from './components/Home.jsx';
 import About from './components/About.jsx';
 import CatPage from './components/CatPage.jsx';
+import ContactUs from './components/ContactUs.jsx';
+import CatProfile from './components/CatProfile.jsx';
 
 ReactDOM.render(
     <BrowserRouter>
@@ -19,6 +21,7 @@ ReactDOM.render(
                         <Route exact path="/" component={Home} />
                         <Route path='/About' component={About}/>
                         <Route path='/Cats' component={CatPage}/>
+                        <Route path='/ContactUs' component={ContactUs}/>
                     </Switch>
             </Layout>
         </App>
