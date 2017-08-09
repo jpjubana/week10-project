@@ -2,7 +2,7 @@
   "name": "week10-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://myusername.github.io/my-app",
+  "homepage": "https://jpjubana.github.io/my-app",
   "dependencies": {
     "nuka-carousel": "^2.0.4",
     "react": "^15.6.1",
